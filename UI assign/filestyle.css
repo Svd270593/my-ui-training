@@ -1,0 +1,75 @@
+.header
+	{
+		font-size: 28px;
+		left: 1000px;
+	}
+
+	a{
+	text-decoration: none;	
+	}
+	
+	#Home
+	{
+		font-size: 25px;
+		height:100%; 
+		background-color:#ff6666; 
+        background-image: url("back.jpg" );
+	}
+	
+	#About
+	{
+        font-size:12px;	
+		height: 100%;
+		background-color:#99ff66;
+
+	}
+    
+     #Traveling
+	{
+		font-size:12px;
+		height:100%;
+		background-color:#ffff00;
+	}
+	#contact
+	{   
+		font-size:12px;
+		height:100%; 
+		background-color:#ff6666; 
+
+	}
+    .child
+		{
+	display: none; 	
+	font-size: 16px;  
+	padding:0px;
+
+	}
+
+	ul
+	{
+	list-style: none;
+	padding: 0px;
+	
+	}
+	#menu > li
+	{
+		float:left;
+	 	padding: 0px;
+	  	top: 15px;
+	 	text-align: center;
+	 	width: 110px;
+	 	
+	}
+	li:hover > ul, li:hover{
+				display: block;
+				opacity: 1;
+				background-color: #99ccff;
+			}
+*{  box-sizing:border-box;
+}
+#menu{
+	
+	position:fixed;
+	right:10px;
+	top:0;
+}
